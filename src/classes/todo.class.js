@@ -13,5 +13,6 @@ export class Todo {
         this.id = new Date().getTime(); //  28947390213
         this.completado = false;
         this.creado = new Date();
+
     }
 }

@@ -6,6 +6,5 @@ import { Todo, TodoList } from "./classes"; //  por defecto se hace la importaci
 import { crearTodoHtml } from './js/componentes';
 
 export const todoList = new TodoList()
-
 todoList.todos.forEach(crearTodoHtml);
 console.log(todoList.todos);
